@@ -6,9 +6,9 @@ EMPLOYEE_ID = 1000
 
 class Employee:
 
-    global EMPLOYEE_ID
 
     def __init__(self , emp_name, emp_salary, emp_id=EMPLOYEE_ID + 1):
+        global EMPLOYEE_ID
         self.id = emp_id
         self.name = emp_name
         self._salary = emp_salary
