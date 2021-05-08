@@ -23,7 +23,7 @@ class Employee:
 
     @salary.setter
     def salary(self, val):
-        self._salary = 5000 if val < 5000 else 30000 if val > 30000 else val
+        self._salary = 1000 if val < 1000 else 50000 if val > 50000 else val
 
 if __name__ == '__main__':
     emp = Employee('meow', 12345)
