@@ -12,6 +12,7 @@ class Employee:
         self.id = emp_id
         self.name = emp_name
         self._salary = emp_salary
+        EMPLOYEE_ID += 1
         return
 
     def __add__(self, other):
